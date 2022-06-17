@@ -68,9 +68,14 @@ header .content{
     text-align: center;
 }
 header .content h1{
-    font-size: 5rem;
-    text-transform: uppercase;
-    color: #fff;
+    font-size: 50px;
+    text-transform: none;
+    color: white;
+}
+header .content h2{
+    margin-top: 30px ;
+    font-family: "Times New Roman";
+    color: white;
 }
 .btn{
     padding: 0.5rem 1.5rem;
@@ -170,7 +175,7 @@ main .about div h1{
 .card .description h3{
     color: yellowgreen;
 }
-.card .description h4{
+.card .description h5{
     color: black;
 }
 .card .description p{
