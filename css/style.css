@@ -277,6 +277,29 @@ main .about div h1{
 .pricing_box .btn{
     margin-bottom: 2rem;
 }
+/*videos*/
+.videos{
+    min-height: 100vh;
+    padding: 2% 6%;
+    text-align: center;
+    background-color: #efefef;
+}
+.videos h1{
+    font-size: 3.8rem;
+    padding: 0.5rem;
+    display: inline-block;
+    color: yellowgreen;
+    border-bottom: .3rem solid yellowgreen;
+    margin-bottom: 2.2rem;
+}
+.videos h2{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    background-color: yellowgreen;
+    padding: 1.2rem;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
 /* Footer */
 footer{
     background: #414141;
