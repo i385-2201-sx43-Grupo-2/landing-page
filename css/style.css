@@ -205,7 +205,8 @@ main .about div h1{
     flex-direction: column;
 }
 .swiper{
-    width: 600px;
+    width: 800px;
+    align-items: center;
 }
 /* Plan */
 .pricing_table{
