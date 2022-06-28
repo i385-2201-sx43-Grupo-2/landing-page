@@ -5,6 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,9 +26,8 @@
         <div class="logo">E<span>P</span></div>
         <div class="open"><img src="./images/menu.png" alt="menu"></div>
         <ul class="links">
-            <li><a href="#1">Nosotros</a></li>
-            <li><a href="#2">Servicios</a></li>
-            <li><a href="#3">Trainers</a></li>
+            <li><a href="#1">Feature</a></li>
+            <li><a href="#2">More Details</a></li>
             <li><a href="#4">Planes</a></li>
             <div class="close"><img src="./images/close.png" alt="cerrar"></div>
         </ul>
@@ -34,180 +35,123 @@
     <div class="content">
         <h1>Rutinas Efectivas desde la comodidad de tu casa</h1>
         <h2>Mejora tu condición física con la mejor app de ejercicios</h2>
-        <a href="#2"><button class="btn">Probar Energy Passion</button></a>
+        <a href="#2"><button class="btn">Descargalo Ahora</button></a>
     </div>
 </header>
 
 <main >
 
     <section class="about" id="1">
-        <div><h1>Nosotros</h1></div>
+        <div><h1>FEATURES</h1></div>
 
         <div class="card">
-            <div class="head">
-                <div class="circle"></div>
-                <div class="image">
-                    <img src="./images/johan.jpg" alt="">
-                </div>
-            </div>
 
             <div class="description">
-                <h3>Johan Principe Godoy</h3>
-                <p>Estudiante de la UPC, futuro Ingeriero de Sofware</p>
+                <h3>Caracteristica 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, molestias.</p>
             </div>
 
 
         </div>
 
         <div class="card">
-            <div class="head">
-                <div class="circle"></div>
-                <div class="image">
-                    <img src="./images/Carlos.png" alt="">
-                </div>
-            </div>
 
             <div class="description">
-                <h3>Carlos Andre Alcantara Quispe</h3>
-                <p>Interesado en la programación y comprometido</p>
+                <h3>Caracteristica 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ut.</p>
             </div>
 
 
         </div>
 
         <div class="card">
-            <div class="head">
-                <div class="circle"></div>
-                <div class="image">
-                    <img src="./images/persona1.jpeg" alt="">
-                </div>
-            </div>
 
             <div class="description">
-                <h3>Miguel Clavo</h3>
-                <p>Me gusta programar, jugar videojuegos y bailar salsa</p>
+                <h3>Caracteristica 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ut.</p>
             </div>
 
         </div>
 
         <div class="card">
-            <div class="head">
-                <div class="circle"></div>
-                <div class="image">
-                    <img src="./images/Georgina.png" alt="">
-                </div>
-            </div>
 
             <div class="description">
-                <h3>GeorginaLastra</h3>
-                <p>Apasionada en lo que hago.</p>
+                <h3>Caracteristica 4</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ut.</p>
             </div>
 
         </div>
 
         <div class="card">
-            <div class="head">
-                <div class="circle"></div>
-                <div class="image">
-                    <img src="./images/persona.jpg" alt="">
-                </div>
-            </div>
 
             <div class="description">
-                <h3>Nombre</h3>
-                <h4>Carrera</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, non?</p>
+                <h3>Caracteristica 5</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ut.</p>
             </div>
 
         </div>
+
+        <div class="card">
+
+            <div class="description">
+                <h3>Caracteristica 6</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ut.</p>
+            </div>
+
+        </div>
+
+        <div class="content">
+            <a href="#2"><button class="btn">Disponible en <i class="fab fa-google-play"></i></button></a>
+        </div>
+
     </section>
 
     <section class="servicio" id="2">
-        <h1>Nuestros Servicios</h1>
-        <div class="container">
-            <div class="box">
-                <img src="./images/1.jpg" alt="">
-                <div class="info">
-                    <h3>Entrenamiento</h3>
-                    <p>Si tu meta es:
-                        bajar de peso,
-                        mantenerte en forma,
-                        ganar músculo,etc.
-                        Entonces nuestra app es la indicada para ti, pues nuestras rutinas están diseñadas para los objetivos que quieras conseguir.</p>
-                    <a href="#4"><button class="btn">More</button></a>
+        <h1>Aquí te brindamos !</h1>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="info">
+                        <h3>Entrenamiento</h3>
+                        <p>Si tu meta es:
+                            bajar de peso,
+                            mantenerte en forma,
+                            ganar músculo,etc.
+                            Entonces nuestra app es la indicada para ti, pues nuestras rutinas están diseñadas para los objetivos que quieras conseguir.</p>
+                    </div>
+                    <img src="./images/1.jpg" alt="">
+                    <br>
+                    <a href="#4"><button class="btn">Try Now <i class="fab fa-google-play"></i></button></a>
                 </div>
-            </div>
+                <div class="swiper-slide">
 
-            <div class="box">
-                <img src="./images/2.jpg" alt="">
-                <div class="info">
-                    <h3>Plan de Nutricion</h3>
-                    <p>Te brindamos la opción de crear tu plan de nutrición con la ayuda de nuestros entrenadores</p>
-                    <button class="btn">More</button>
+                    <div class="info">
+                        <h3>Plan de Nutricion</h3>
+                        <p>Te brindamos la opción de crear tu plan de nutrición con la ayuda de nuestros entrenadores</p>
+                    </div>
+                    <img src="./images/2.jpg" alt="">
+                    <br>
+                    <button class="btn">Try Now <i class="fab fa-google-play"></i></button>
                 </div>
-            </div>
-
-            <div class="box">
-                <img src="./images/3.jpg" alt="">
-                <div class="info">
-                    <h3>Trainers</h3>
-                    <p>Eres trainer? Obtén ingresos adicionales en tus horas libre con Energy Passion
-                        Crea tus propias rutinas de ejercicios y convierte en el mejor trainer.</p>
-                    <button class="btn">Postúlate ya!</button>
+                <div class="swiper-slide">
+                    <div class="info">
+                        <h3>Trainers</h3>
+                        <p>Eres trainer? Obtén ingresos adicionales en tus horas libre con Energy Passion
+                            Crea tus propias rutinas de ejercicios y convierte en el mejor trainer.</p>
+                    </div>
+                    <img src="./images/3.jpg" alt="">
+                    <br>
+                    <button class="btn">Postúlate ya! <i class="fab fa-google-play"></i></button>
                 </div>
-            </div>
 
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
+
+
     </section>
 
-    <section class="trainers" id="3">
-        <h1>Nuestros Trainers</h1>
-        <p>Contamos con una amplia variedad de trainers certificados, los cuales poseen una gran experiencia. Especializados en el training, te ayudarán a conseguir las metas que quieras.</p>
-        <div class="items">
-            <div class="tem">
-                <img src="./images/entrenador.jpg" alt="">
-                <div class="inner">
-                    <div class="info">
-                        <h4>Nombre Trainer</h4>
-                        <div class="links">
-                            <a href=" "><i class="fab fa-facebook"></i></a>
-                            <a href=" "><i class="fab fa-twitter"></i></a>
-                            <a href=" "><i class="fab fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tem">
-                <img src="./images/entrenador.jpg" alt="">
-                <div class="inner">
-                    <div class="info">
-                        <h4>Nombre Trainer</h4>
-                        <div class="links">
-                            <a href=" "><i class="fab fa-facebook"></i></a>
-                            <a href=" "><i class="fab fa-twitter"></i></a>
-                            <a href=" "><i class="fab fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tem">
-                <img src="./images/entrenador.jpg" alt="">
-                <div class="inner">
-                    <div class="info">
-                        <h4>Nombre Trainer</h4>
-                        <div class="links">
-                            <a href=" "><i class="fab fa-facebook"></i></a>
-                            <a href=" "><i class="fab fa-twitter"></i></a>
-                            <a href=" "><i class="fab fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
 
     <section class="pricing_table" id="4">
         <h1>Nuestros Planes</h1>
@@ -242,6 +186,7 @@
 
 <footer>
     <div class="contenedor-footer">
+        <div><h1>Energy Pasion | </h1></div>
         <div class="content-foo">
             <a href="" target="_blank">
                 <i class="fab fa-facebook"></i>
@@ -257,12 +202,20 @@
                 <i class="fab fa-instagram"></i>
             </a>
         </div>
+        <div class="content-foo">
+            <a href="" target="_blank">
+                <i class="fab fa-google-play"></i>
+            </a>
+        </div>
     </div>
 
     <h2 class="titulo-final">Created by &copy;Grupo 2 IHC-SX43 | Todos los derechos reservados</h2>
 </footer>
 
 <!-- Javascript -->
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 <script>
     var mainMenu = document.querySelector('.links');
     var openMenu = document.querySelector('.open')
@@ -278,6 +231,14 @@
 
     openMenu.addEventListener('click', show)
     closeMenu.addEventListener('click', close)
+
+    <!-- Initialize Swiper -->
+    var swiper = new Swiper(".mySwiper", {
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
 </script>
 
 </body>
