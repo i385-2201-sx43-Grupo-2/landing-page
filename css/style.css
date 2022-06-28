@@ -28,6 +28,7 @@ header{
     background-position: center;
     background-size: cover;
     clip-path: polygon(100% 0, 100% 86%, 48% 100%, 0 86%, 0 0);
+    url(../images/celular.png);
 }
 nav{
     padding: 2% 6%;
@@ -61,11 +62,11 @@ nav .links li a:hover{
     color: yellowgreen;
 }
 header .content{
-    position: absolute;
+    position: fixed;
     top: 50%;
-    left: 50%;
+    left: 40%;
     transform: translate(-50%, -50%);
-    text-align: center;
+    text-align: left;
 }
 header .content h1{
     font-size: 50px;
@@ -76,6 +77,11 @@ header .content h2{
     margin-top: 30px ;
     font-family: "Times New Roman";
     color: white;
+}
+header .celular img{
+    width: 300px;
+    height: 500px;
+    margin-left: 1000px;
 }
 .btn{
     padding: 0.5rem 1.5rem;
